@@ -1,15 +1,3 @@
-local GamepassId = 41506473
-local message = ("contact TheWoo2005#4840 On Discord Or Purchase This https://www.roblox.com/game-pass/41506473/bart2 gamepass")
-local MarketPlaceService = game:GetService("MarketplaceService")
-local Player = game.Players.LocalPlayer
-
-if not MarketPlaceService:UserOwnsGamePassAsync(Player.UserId, GamepassId) then
-Player:kick(message) 
-else
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
